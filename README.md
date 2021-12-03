@@ -15,6 +15,7 @@
 
 ## What I learned
 * git / gitHub
+* font awsome
 * Jira
 
 
