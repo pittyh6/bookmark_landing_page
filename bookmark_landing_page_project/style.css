@@ -8,6 +8,7 @@ body{
    --soft-blue: hsl(231, 69%, 60%);
    --grayish-blue: hsl(229, 8%, 60%);
     --very-dark-blue: hsl(229, 31%, 21%);
+    --white: #fff;
 }
 
 /*container with this class*/
@@ -26,16 +27,37 @@ body{
     font-weight: 500 !important;
 }
 /*buttons with this class*/
-.btn-light-red{
-    background-color: var(--soft-red) !important;
-    color: #fff !important;
+.btn-light-red,
+.btn-blue,
+.btn-gray{
     padding: 5px 24px !important;
 }
+.btn-light-red{
+    background-color: var(--soft-red) !important;
+    color: var(--white) !important;    
+}
 .btn-light-red:hover{
-    background-color: #fff !important;
+    background-color: var(--white) !important;
     border: 2px solid var(--soft-red) !important;
     color: var(--soft-red) !important;
     padding: 4px 23px !important;
+}
+.btn-blue{
+    background-color: var(--soft-blue) !important;
+    color: var(--white) !important;
+}
+.btn-blue:hover{
+    background-color: var(--white) !important;
+    border: 2px solid var(--soft-blue) !important;
+    color: var(--soft-blue) !important;
+}
+.btn-gray{
+    color: var(--very-dark-blue);
+}
+.btn-gray:hover{
+    background-color: var(--white) !important;
+    border: 2px solid var(--very-dark-blue) !important;
+    color: var(--very-dark-blue) !important;
 }
 /*item-link with this class*/
 .opt-links:hover{
