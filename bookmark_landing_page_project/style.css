@@ -121,10 +121,9 @@ body{
 .img-section{
     width: 90%;
 }
-
-.dotted{
-    border-top: 5px dotted var(--grayish-blue) ;
-    background-color: var(--white) !important;letter-spacing: 12px !important;
+.img-dots{
+    width: 100%;
+    margin: 10% 0;
 }
 
 .card{
