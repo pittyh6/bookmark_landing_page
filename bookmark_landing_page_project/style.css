@@ -96,6 +96,9 @@ body{
     margin: 4% auto;
 }
 
+.pd-top-6-perc{
+    padding-top: 6%;
+}
 /* HIDE ELEMENTS */
 .hide-elements{
     display: none;
@@ -109,10 +112,14 @@ body{
 .content-right{
     padding-left: 6% !important;
 }
+
+/* IMAGE */
+.img-section{
+    width: 90%;
+}
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
 /* navbar */
-
 .nav-item{
     padding: 0 12px;
 }
