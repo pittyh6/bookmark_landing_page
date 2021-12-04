@@ -18,6 +18,10 @@ body{
     margin: auto;
     width: 70%;
 }
+.tiny-content{
+    margin: auto;
+    width: 40%;
+}
 .big-content{
     margin: auto;
 }
@@ -156,6 +160,12 @@ body{
 }
 .card-three{
     margin-top: 100px;
+}
+
+/* SECTION 4 */
+.question{
+    color: var(--very-dark-blue);
+    text-decoration: none;
 }
 
 /* FOOTER */
