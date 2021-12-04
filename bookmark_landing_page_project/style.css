@@ -127,6 +127,14 @@ body{
     background-color: var(--white) !important;letter-spacing: 12px !important;
 }
 
+.card{
+    border: 1px solid rgba(0,0,0,.03) !important;
+    border-radius: 10px !important;
+}
+
+.shadow{
+    box-shadow: 0 1rem 1rem rgb(0, 0, 0,.15) !important;
+}
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
 /* navbar */
