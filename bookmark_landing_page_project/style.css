@@ -21,14 +21,14 @@ body{
 .big-content{
     margin: auto;
 }
-/* text align center */
+/* text align */
 .text-align-cente{
     text-align: center;
 }
 .text-align-left{
     text-align: left;
 }
-/* small content text */
+/* text small content  */
 .text-small-content{
     padding: 1.5% 23%;
 }
