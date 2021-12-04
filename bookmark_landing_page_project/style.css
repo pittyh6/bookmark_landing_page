@@ -1,6 +1,7 @@
 body{
     font-family: "Rubik", sans-serif !important;
     font-size: 18px !important;
+    margin: auto !important;
 }
 /* VARIABLES COLOR */
 :root{
@@ -11,12 +12,16 @@ body{
     --white: #fff;
 }
 
-/*container with this class*/
+/* --------------------------USE SAME CLASS ELEMENTS--------------------------- */
+/*container*/
 .small-content{
     margin: auto;
     width: 70%;
 }
-/*h1,h3 with this class*/
+.big-content{
+    margin: auto;
+}
+/*h1,h3*/
 .text-weight-regular{
     font-family: "Rubik" !important;
     font-weight: 400 !important;
@@ -26,7 +31,7 @@ body{
     font-family: "Rubik" !important;
     font-weight: 500 !important;
 }
-/*buttons with this class*/
+/*buttons*/
 .btn-light-red,
 .btn-blue,
 .btn-gray{
@@ -59,16 +64,28 @@ body{
     border: 2px solid var(--very-dark-blue) !important;
     color: var(--very-dark-blue) !important;
 }
-/*item-link with this class*/
+/*item-link*/
 .opt-links:hover{
     color: var(--soft-red) !important;
 }
-/*paragraphs with this class*/
+/*paragraphs*/
 .desc-section{
     color: var(--grayish-blue) !important;
 }
 
+/* col- */
+.content-left{
+    padding-right: 5% !important;
+    padding-left: 1.5% !important;
+}
+.content-right{
+    padding-left: 6% !important;
+}
+/* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 /* navbar */
+#header{
+    margin: 3% auto;
+}
 .nav-item{
     padding: 0 12px;
 }
@@ -81,4 +98,15 @@ body{
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+
+  /*MOBILE*/
+  @media (max-width: 1024px) {
+      .small-content{
+          width: 100%;
+      }
+      .img-section{
+          width: 80%;
+      }
   }
