@@ -152,6 +152,7 @@ body{
     filter: invert(70%) sepia(81%) saturate(7227%) hue-rotate(-3deg) brightness(123%) contrast(160%);
 }
 
+
 /* BORDER */
 .card{
     border: 1px solid rgba(0,0,0,.03) !important;
