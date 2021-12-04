@@ -42,6 +42,21 @@ body{
     font-family: "Rubik" !important;
     font-weight: 500 !important;
 }
+/*paragraphs*/
+.desc-section{
+    color: var(--grayish-blue) !important;
+}
+/*item-link*/
+.opt-links:hover{
+    color: var(--soft-red) !important;
+}
+.nav-pills .nav-link.active{
+    background-color: var(--white) !important;
+    border-bottom: 2px solid var(--soft-red) ;
+    border-radius: 0;
+    color: var(--very-dark-blue) !important;
+}
+
 /*buttons*/
 .btn-light-red,
 .btn-blue,
@@ -75,13 +90,10 @@ body{
     border: 2px solid var(--very-dark-blue) !important;
     color: var(--very-dark-blue) !important;
 }
-/*item-link*/
-.opt-links:hover{
-    color: var(--soft-red) !important;
-}
-/*paragraphs*/
-.desc-section{
-    color: var(--grayish-blue) !important;
+
+/* MARGIN */
+.mg-3-perc{
+    margin: 3% auto;
 }
 
 /* col- */
@@ -93,12 +105,16 @@ body{
     padding-left: 6% !important;
 }
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
+
 /* navbar */
-#header{
-    margin: 3% auto;
-}
+
 .nav-item{
     padding: 0 12px;
+}
+
+/* SECTION 2 */
+#features a{
+    color: var(--grayish-blue);
 }
 
 /* FOOTER */
