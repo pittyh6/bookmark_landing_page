@@ -93,7 +93,12 @@ body{
 
 /* MARGIN */
 .mg-3-perc{
-    margin: 3% auto;
+    margin: 4% auto;
+}
+
+/* HIDE ELEMENTS */
+.hide-elements{
+    display: none;
 }
 
 /* col- */
