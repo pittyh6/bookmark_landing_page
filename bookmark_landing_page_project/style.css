@@ -13,6 +13,13 @@ body{
 }
 
 /* --------------------------USE SAME CLASS ELEMENTS--------------------------- */
+/* BACKGROUND */
+.bg-light-blue{
+ background-color: var(--soft-blue);
+}
+.bg-dark-blue{
+    background-color: var(--very-dark-blue);
+}
 /*container*/
 .small-content{
     margin: auto;
@@ -46,9 +53,19 @@ body{
     font-family: "Rubik" !important;
     font-weight: 500 !important;
 }
+.tiny-title{
+    font-size: 14px;
+    font-family: "Open Sans" !important;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
 /*paragraphs*/
 .desc-section{
     color: var(--grayish-blue) !important;
+}
+/* TEXT COLOR  */
+.txt-white{
+    color: var(--white);
 }
 /*item-link*/
 .opt-links:hover{
@@ -135,14 +152,17 @@ body{
     filter: invert(70%) sepia(81%) saturate(7227%) hue-rotate(-3deg) brightness(123%) contrast(160%);
 }
 
+/* BORDER */
 .card{
     border: 1px solid rgba(0,0,0,.03) !important;
     border-radius: 10px !important;
 }
-
+/* SHADOW */
 .shadow{
     box-shadow: 0 1rem 1rem rgb(0, 0, 0,.15) !important;
 }
+
+
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
 /* navbar */
@@ -167,10 +187,18 @@ body{
     margin-top: 100px;
 }
 
-/* SECTION 4 */
+/* SECTION 4 - QUESTIONS*/
 .question{
     color: var(--very-dark-blue);
     text-decoration: none;
+}
+
+/* SECTION 5 - JOIN */
+#join{
+    margin-top: 4%;
+}
+#join .tiny-content{
+    padding: 5% 1%;
 }
 
 /* FOOTER */
