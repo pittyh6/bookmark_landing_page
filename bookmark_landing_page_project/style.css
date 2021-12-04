@@ -129,6 +129,18 @@ body{
     color: var(--grayish-blue);
 }
 
+/* SECTION 3 */
+#extension .row{
+    margin: auto;
+    width: 70%;
+}
+.card-two{
+    margin-top: 55px;
+}
+.card-three{
+    margin-top: 100px;
+}
+
 /* FOOTER */
 .attribution {
     font-size: 11px;
