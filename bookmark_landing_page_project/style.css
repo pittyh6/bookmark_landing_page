@@ -1,20 +1,21 @@
-/* VARIABLES COLOR */
-:root{
-    --soft-red: hsl(0, 94%, 66%);
-    color: var(--soft-blue, hsl(231, 69%, 60%));
-    color: var(--grayish-blue, hsl(229, 8%, 60%));
-    color: var(--very-dark-blue, hsl(229, 31%, 21%));
-}
-
-
-.small-content{
-    margin: auto;
-    width: 70%;
-}
 body{
     font-family: "Rubik", sans-serif !important;
     font-size: 18px !important;
 }
+/* VARIABLES COLOR */
+:root{
+    --soft-red: hsl(0, 94%, 66%);
+   --soft-blue: hsl(231, 69%, 60%);
+   --grayish-blue: hsl(229, 8%, 60%);
+    --very-dark-blue: hsl(229, 31%, 21%);
+}
+
+/*container with this class*/
+.small-content{
+    margin: auto;
+    width: 70%;
+}
+/*h1,h3 with this class*/
 .text-weight-regular{
     font-family: "Rubik" !important;
     font-weight: 400 !important;
@@ -24,6 +25,7 @@ body{
     font-family: "Rubik" !important;
     font-weight: 500 !important;
 }
+/*buttons with this class*/
 .btn-light-red{
     background-color: var(--soft-red) !important;
     color: #fff !important;
@@ -35,10 +37,15 @@ body{
     color: var(--soft-red) !important;
     padding: 4px 23px !important;
 }
-
+/*item-link with this class*/
 .opt-links:hover{
     color: var(--soft-red) !important;
 }
+/*paragraphs with this class*/
+.desc-section{
+    color: var(--grayish-blue) !important;
+}
+
 /* navbar */
 .nav-item{
     padding: 0 12px;
