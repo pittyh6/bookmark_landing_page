@@ -96,8 +96,12 @@ body{
     margin: 4% auto;
 }
 
+/* PADDING */
 .pd-top-6-perc{
     padding-top: 6%;
+}
+.pd-top-15-perc{
+    padding-top: 15%;
 }
 /* HIDE ELEMENTS */
 .hide-elements{
@@ -117,6 +121,12 @@ body{
 .img-section{
     width: 90%;
 }
+
+.dotted{
+    border-top: 5px dotted var(--grayish-blue) ;
+    background-color: var(--white) !important;letter-spacing: 12px !important;
+}
+
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
 /* navbar */
