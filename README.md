@@ -14,9 +14,13 @@
 <img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100"><img src= Documentation/html.png  height="90" width="90"><img src= Documentation/css.png  height="90" width="90"><img src= Documentation/js.png  height="90" width="100"><img src= Documentation/bootstrap.png  height="90" width="100"><img src= Documentation/jquery.png  height="90" width="100">
 
 ## What I learned
+* svg img
+* svg img filte()
+* svg img rotate()
 * Bootstrap Card/Card-box 
-* CSS variable
+* Bootstrap col- lg/md/sm 
 * Bootstrap
+* CSS variable
 * git / gitHub
 * font Awesome
 * Jira
