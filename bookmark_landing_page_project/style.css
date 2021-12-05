@@ -167,6 +167,48 @@ body{
     box-shadow: 0 1rem 1rem rgb(0, 0, 0,.15) !important;
 }
 
+/* BACKGROUND SHAPES */
+.shape {
+    height: 242px;
+    width: 324px;
+    background-color: var(--soft-blue);
+    border-radius: 80px;
+    margin-bottom: 30px;
+    float: right;
+    right: 20%;
+    margin-right: 20px;
+    position: absolute;
+}   
+.shape2 {
+    float: right;
+    border-radius: 0;
+    right: 15%;
+    position: absolute;
+    
+}
+.shape-position{
+      top: 48%;
+}
+.shape-position-sb{
+    top: 150%;
+}
+.shape-fe{
+    height: 242px;
+    width: 324px;
+    background-color: var(--soft-blue);
+    border-radius: 80px;
+    margin-bottom: 30px;
+    float: right;
+    left: 20%;
+    margin-right: 20px;
+    position: absolute;
+}
+.shape-fe2{
+    float: right;
+    border-radius: 0;
+    left: 11%;
+    position: absolute;
+}
 
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
@@ -247,23 +289,21 @@ body{
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
 
-  /*MOBILE*/
-  @media (max-width: 1024px) {
-      .small-content{
-          width: 100%;
-      }
-      .img-section{
-          width: 80%;
-      }
-  }
-
-
+/*MOBILE*/
+@media (max-width: 1024px) {
+    .small-content{
+        width: 100%;
+    }
+    .img-section{
+        width: 80%;
+    }
+}
 
 
 
@@ -276,25 +316,5 @@ body{
 
 
 
-  .shape {
-    height: 242px;
-    width: 324px;
-    background-color: var(--soft-blue);
-    border-radius: 80px;
-    margin-bottom: 30px;
-    float: right;
-    right: 20%;
-    margin-right: 20px;
-    position: absolute;
-  } 
-  
-  .shape2 {
-    float: right;
-    border-radius: 0;
-    right: 15%;
-    position: absolute;
-    
-  }
-  .shape-position{
-      top: 48%;
-  }
+
+

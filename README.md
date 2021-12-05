@@ -22,6 +22,7 @@
 * Bootstrap Form error input
 * Bootstrap
 * CSS variable
+* CSS background shapes
 * git / gitHub
 * font Awesome
 * Jira
