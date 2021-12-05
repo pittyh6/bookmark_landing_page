@@ -32,6 +32,9 @@ body{
 .big-content{
     margin: auto;
 }
+.container-fluid{
+    padding:0 !important;
+}
 /* text align */
 .text-align-cente{
     text-align: center;
@@ -65,7 +68,7 @@ body{
 }
 /* TEXT COLOR  */
 .txt-white{
-    color: var(--white);
+    color: var(--white) !important;
 }
 /*item-link*/
 .opt-links:hover{
@@ -218,6 +221,25 @@ body{
 #join .col-md-4, #join .col-md-8{
     padding: 0 !important;
     margin: 0;
+}
+
+/* SECTION 6 - CONTACT */
+.contact{
+    padding: 2% 15%!important;
+}
+.contact .row{
+    margin: auto;
+}
+#contact a{
+    color: var(--white);    
+    text-transform: uppercase;
+}
+#contact .nav-item a {
+    font-size: 13px !important;
+    
+}
+.fa-ul{
+   width: 100%;
 }
 
 /* FOOTER */
