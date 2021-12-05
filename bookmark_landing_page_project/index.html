@@ -266,16 +266,26 @@
       <div class="tiny-content">
         <h5 class="tiny-title">35,000+ ALREADY JOINED</h5>
         <h3 class="small-title mg-3-perc">Stay up-to-date with what we’re doing</h3>
-        <div class="row ">
-          <div class="col-md-8">
-            <input class="form-control" type="text" placeholder="Enter your email address">
+
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-8 input-group has-validation position-relative">
+            <input type="text" class="form-control is-invalid" id="validationTooltipUsername"
+              placeholder="Enter your email address" aria-describedby="validationTooltipUsernamePrepend" required>                       
+            <div class="invalid-tooltip">
+              <i>Whoops, make sure it's an email.</i>
+            </div>
+            <div class="col-md-4 position-relative">
+              <button class="btn btn-light-red" type="submit">Contact Us</button>
+            </div>
           </div>
-          <div class="col-md-4">
-            <button class="btn btn-light-red ">Contact Us</button>
-          </div>
-        </div>
+        </form>
       </div>
     </Section>
+
+
+
+
+
     <!-- SECTION 6 -->
     <Section id="contact" class="big-content bg-dark-blue txt-white">
       <div class="contact row">
@@ -318,7 +328,8 @@
         </div>
       </div>
     </Section>
-<!-- FOOTER -->
+
+    <!-- FOOTER -->
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
