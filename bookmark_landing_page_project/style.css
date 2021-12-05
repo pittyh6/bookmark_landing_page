@@ -143,6 +143,7 @@ body{
 
 /* IMAGE */
 .img-section{
+    position: relative;
     width: 90%;
 }
 .img-dots{
@@ -252,7 +253,6 @@ body{
     color: hsl(228, 45%, 44%);
   }
 
-
   /*MOBILE*/
   @media (max-width: 1024px) {
       .small-content{
@@ -261,4 +261,40 @@ body{
       .img-section{
           width: 80%;
       }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .shape {
+    height: 242px;
+    width: 324px;
+    background-color: var(--soft-blue);
+    border-radius: 80px;
+    margin-bottom: 30px;
+    float: right;
+    right: 20%;
+    margin-right: 20px;
+    position: absolute;
+  } 
+  
+  .shape2 {
+    float: right;
+    border-radius: 0;
+    right: 15%;
+    position: absolute;
+    
+  }
+  .shape-position{
+      top: 48%;
   }
