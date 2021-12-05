@@ -19,6 +19,7 @@
 * svg img rotate()
 * Bootstrap Card/Card-box 
 * Bootstrap col- lg/md/sm 
+* Bootstrap Form error input
 * Bootstrap
 * CSS variable
 * git / gitHub
