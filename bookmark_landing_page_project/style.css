@@ -50,7 +50,7 @@ body{
 .text-weight-regular{
     font-family: "Rubik" !important;
     font-weight: 400 !important;
-    
+
 }
 .text-weight-medium{
     font-family: "Rubik" !important;
@@ -89,7 +89,7 @@ body{
 }
 .btn-light-red{
     background-color: var(--soft-red) !important;
-    color: var(--white) !important;    
+    color: var(--white) !important;
 }
 .btn-light-red:hover{
     background-color: var(--white) !important;
@@ -169,8 +169,8 @@ body{
 
 /* BACKGROUND SHAPES */
 .shape {
-    height: 25%;
-    width: 17%;
+    height: 250px;
+    width: 350px;
     background-color: var(--soft-blue);
     border-radius: 80px;
     margin-bottom: 30px;
@@ -178,23 +178,23 @@ body{
     right: 20%;
     margin-right: 20px;
     position: absolute;
-}   
+}
 .shape2 {
     float: right;
     border-radius: 0;
     right: 15%;
     position: absolute;
-    
+
 }
 .shape-position{
-      top: 38%;
+      top: 320px;
 }
 .shape-position-sb{
-    top: 110%;
+    top: 950px;
 }
 .shape-fe{
-    height: 25%;
-    width: 17%;
+    height: 315px;
+    width: 350px;
     background-color: var(--soft-blue);
     border-radius: 80px;
     margin-bottom: 30px;
@@ -254,7 +254,7 @@ body{
 #join .row{
     margin: auto;
     width: 75%;
-} 
+}
 #join input::-webkit-input-placeholder{
     opacity: 0.5;
 }
@@ -274,16 +274,16 @@ body{
 .contact{
     padding: 2% 15%!important;
 }
-.contact .row{
-    margin: auto;
+.contact.row{
+    margin: 0 !important;
 }
 #contact a{
-    color: var(--white);    
+    color: var(--white);
     text-transform: uppercase;
 }
 #contact .nav-item a {
     font-size: 13px !important;
-    
+
 }
 .fa-ul{
    width: 100%;
@@ -300,12 +300,13 @@ body{
 }
 
 /*MOBILE*/
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 770px){
     body{
         margin: auto !important;
         text-align: center !important;
     }
     .small-content{
+        margin: 8% 0;
         width: 100%;
     }
     .text-small-content{
@@ -314,17 +315,64 @@ body{
     .img-section{
         width: 80%;
     }
-    .tiny-content, 
-    .container, 
+    .tiny-content,
+    .container,
     .container-fluid{
         width: 90% !important;
     }
     .card-three{
         margin-top: 55px;
     }
+    .shape {
+        height: 150px;
+        width: 150px;
+        right: 17%;
+    }
+    .shape2 {
+        right: 10%;
+    }
+    .shape-position{
+          top: 260px;
+    }
+    .shape-position-sb{
+        top: 890px;
+    }
+    .shape-fe{
+        height: 215px;
+        width: 240px;
+        left: 15%;
+    }
+    .shape-fe2{
+        left: 4%;
+    }
+
+}
+@media (max-width: 770px){
+    /* .shape {
+        height: 150px;
+        width: 150px;
+        right: 17%;
+    }*/
+    .shape2 {
+        right: 10%;
+    } 
+    .shape-fe2{
+        left: 0;
+    }
+    .shape-position{
+        top: 443px;
+    }
+    .shape-position-sb{
+        top: 1110px;
+    }
+    .small-content, .tiny-content{
+        width: 90%;
+    }
+    .mg-id-div{
+        margin: 5% auto;
+    }
     
 }
-
 
 
 
