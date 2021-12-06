@@ -352,8 +352,19 @@ body{
 @media (max-width: 770px){
     .small-content, .tiny-content{
         text-align: center;
-        margin: auto !important;
+        margin: auto !important;        
         width: 90%;
+    }
+    {
+
+    }
+    #features .text-small-content,
+    #questions .text-small-content{
+        padding: 0 !important;
+    }
+    #questions .row{
+        text-align: left;
+        padding-left: 7%;
     }
     .mg-id-div{
         margin: 15% auto !important;
