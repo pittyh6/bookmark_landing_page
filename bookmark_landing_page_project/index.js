@@ -1,4 +1,4 @@
-
+// Features SHOW/HIDE
 $("#features a").on("click", function(event){
     var textEvent = event.target.text;
     if(textEvent === "Simple Bookmarking"){
@@ -18,15 +18,15 @@ $("#features a").on("click", function(event){
     }
 });
 
-
-
-$("#q1").on("click", function(){
-    if($("#q1").hasClass("svg") === false){
-        $("#q1a").show();
-        $("#q1").addClass("svg");
+// Questions SHOW/HIDE 
+$("#questions img").on("click", function(event){
+    var idImg = event.target.id;
+    console.log(idImg)
+    if($("#"+idImg).hasClass("svg") === false){
+        $("#"+idImg+"a").show();
+        $("#"+idImg).addClass("svg");
     }else{
-        $("#q1a").hide();
-        $("#q1").removeClass("svg");
-    }
-    
+        $("#"+idImg+"a").hide();
+        $("#"+idImg).removeClass("svg");
+    }    
 });
