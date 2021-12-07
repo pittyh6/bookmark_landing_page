@@ -533,6 +533,12 @@ body{
       right: 45px;
       font-size: 60px;
     }
+
+    .toggleWhite{
+        color: var(--white) !important;
+        width: 95%;
+        margin: 5% auto;
+    }
   }
   
 /*     

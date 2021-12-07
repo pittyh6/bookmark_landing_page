@@ -48,13 +48,6 @@ function EmailValidation(enteredEmail) {
     }
 }
 
-
-
-
-
-
-
-
 /* Open */
 function openNav() {
     document.getElementById("navbarNav").style.display = "block";
