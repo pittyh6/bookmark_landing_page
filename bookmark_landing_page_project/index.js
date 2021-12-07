@@ -53,6 +53,7 @@ function openNav() {
     //document.getElementById("navbarNav").style.display = "block";
     $("#navbarNav").css("display", "block");
     $("#navbarNav img").removeClass("hide-elements")
+    $("#navbarNav button").addClass("btn-toggle-transp")
   }
   
   /* Close */
@@ -60,4 +61,5 @@ function openNav() {
     //document.getElementById("navbarNav").style.display = "none";
     $("#navbarNav").css("display", "none");
     $("#navbarNav img").addClass("hide-elements")
+    $("#navbarNav img").removeClass("btn-toggle-transp")
   }
