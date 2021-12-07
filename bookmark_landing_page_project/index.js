@@ -1,17 +1,21 @@
-$("#speedySearchingLink").on("click", function(){
-     $("#simpleBookmarking").hide();
-     $("#easySharing").hide();
-     $("#speedySearching").show();
-});
-$("#easySharingLink").on("click", function(){
-    $("#easySharing").show();
-    $("#speedySearching").hide();
-    $("#simpleBookmarking").hide();
-});
-$("#simpleBookmarkinLink").on("click", function(){
-    $("#simpleBookmarking").show();
-    $("#speedySearching").hide();
-    $("#easySharing").hide();
+
+$("#features a").on("click", function(event){
+    var textEvent = event.target.text;
+    if(textEvent === "Simple Bookmarking"){
+        $("#simpleBookmarking").show();
+        $("#speedySearching").hide();
+        $("#easySharing").hide();
+    }else if(textEvent === "Speedy Searching"){
+        $("#simpleBookmarking").hide();
+        $("#easySharing").hide();
+        $("#speedySearching").show();
+    }else if(textEvent === "Easy Sharing"){
+        $("#simpleBookmarking").hide();
+        $("#easySharing").show();
+        $("#speedySearching").hide();
+    }else{
+        console.log("Feature links is not working: " + event.target.text);
+    }
 });
 
 
