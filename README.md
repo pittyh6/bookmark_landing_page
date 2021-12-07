@@ -10,7 +10,7 @@
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/bookmark_landing_page/tree/master/Sprint%203)
 
-<img src= bookmark_landing_gif-1.gif height="256" width="256">
+![Begin Banner](Documentation/bookmark_landing_gif-1.gif)
 
 ## Tools
 <img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100"><img src= Documentation/html.png  height="90" width="90"><img src= Documentation/css.png  height="90" width="90"><img src= Documentation/js.png  height="90" width="100"><img src= Documentation/bootstrap.png  height="90" width="100"><img src= Documentation/jquery.png  height="90" width="100">
