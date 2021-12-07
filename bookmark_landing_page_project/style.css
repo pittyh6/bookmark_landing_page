@@ -348,7 +348,7 @@ body{
     }
 
 }
-@media (max-width: 770px){
+@media (max-width: 770px) and (min-width: 376px){
     .small-content, .tiny-content{
         text-align: center;
         margin: auto !important;        
@@ -360,9 +360,13 @@ body{
     #bookmark button{
         padding: 3% !important;
     }
+
     #features .text-small-content,
     #questions .text-small-content{
         padding: 0 !important;
+    }
+    #features .content-right{
+        margin-top: 5% !important;
     }
     #questions .row{
         text-align: left;
@@ -374,13 +378,6 @@ body{
     .card-three{
         margin-top: 55px;
     }
-
-
-    /* .shape {
-        height: 150px;
-        width: 150px;
-        right: 17%;
-    }*/
     .shape2 {
         right: 10%;
     } 
@@ -388,10 +385,10 @@ body{
         left: 0;
     }
     .shape-position{
-        top: 443px;
+        top: 552px;
     }
     .shape-position-sb{
-        top: 1110px;
+        top: 1229px;
     }
  
     
@@ -425,5 +422,48 @@ body{
     #header a{
         color: var(--white) !important;
     }
+
+    /* BACKGROUND SHAPES */
+.shape {
+    height: 100px;
+    width: 106px;
+    background-color: var(--soft-blue);
+    border-radius: 80px;
+    margin-bottom: 30px;
+    float: right;
+    right: 29%;
+    margin-right: 20px;
+    position: absolute;
+}
+.shape2 {
+    float: right;
+    border-radius: 0;
+    right: 15%;
+    position: absolute;
+
+}
+.shape-position{
+      top: 130px;
+}
+.shape-position-sb{
+    top: 1155px;
+}
+.shape-fe{
+    height: 155px;
+    width: 160px;
+    background-color: var(--soft-blue);
+    border-radius: 80px;
+    margin-bottom: 30px;
+    float: right;
+    left: 30%;
+    margin-right: 20px;
+    position: absolute;
+}
+.shape-fe2{
+    float: right;
+    border-radius: 0;
+    left: 6%;
+    position: absolute;
+}
 }
 
