@@ -539,6 +539,10 @@ body{
         width: 95%;
         margin: 5% auto;
     }
+    #navbarNav img{
+        margin: auto;
+        width: 65%;
+    }
   }
   
 /*     

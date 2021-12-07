@@ -50,12 +50,14 @@ function EmailValidation(enteredEmail) {
 
 /* Open */
 function openNav() {
-    document.getElementById("navbarNav").style.display = "block";
-    //$("#header").css("display", "block");
+    //document.getElementById("navbarNav").style.display = "block";
+    $("#navbarNav").css("display", "block");
+    $("#navbarNav img").removeClass("hide-elements")
   }
   
   /* Close */
   function closeNav() {
-    document.getElementById("navbarNav").style.display = "none";
-    //$("#header").css("display", "none");
+    //document.getElementById("navbarNav").style.display = "none";
+    $("#navbarNav").css("display", "none");
+    $("#navbarNav img").addClass("hide-elements")
   }
