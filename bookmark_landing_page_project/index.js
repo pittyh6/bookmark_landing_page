@@ -47,3 +47,22 @@ function EmailValidation(enteredEmail) {
         return false;
     }
 }
+
+
+
+
+
+
+
+
+/* Open */
+function openNav() {
+    document.getElementById("navbarNav").style.display = "block";
+    //$("#header").css("display", "block");
+  }
+  
+  /* Close */
+  function closeNav() {
+    document.getElementById("navbarNav").style.display = "none";
+    //$("#header").css("display", "none");
+  }

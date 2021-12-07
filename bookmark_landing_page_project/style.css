@@ -417,7 +417,7 @@ body{
         width: auto !important;
     }
     #join button{
-        width: 292% !important;
+        width: 291% !important;
     }
     .fa-ul{
         margin-left: 0 !important;
@@ -431,50 +431,116 @@ body{
         color: var(--white) !important;
     }
 
-    /* BACKGROUND SHAPES */
-.shape {
-    height: 139px;
-    width: 140px;
-    background-color: var(--soft-blue);
-    border-radius: 80px;
-    margin-bottom: 30px;
-    float: right;
-    right: 25%;
-    margin-right: 20px;
-    position: absolute;
-}
-.shape2 {
-    float: right;
-    border-radius: 0;
-    right: 5%;
-    position: absolute;
+        /* BACKGROUND SHAPES */
+    .shape {
+        height: 139px;
+        width: 140px;
+        background-color: var(--soft-blue);
+        border-radius: 80px;
+        margin-bottom: 30px;
+        float: right;
+        right: 25%;
+        margin-right: 20px;
+        position: absolute;
+    }
+    .shape2 {
+        float: right;
+        border-radius: 0;
+        right: 5%;
+        position: absolute;
 
-}
-.shape-position{
-      top: 167px;
-}
-.shape-position-sb{
-    top: 1038px;
-}
-.shape-fe{
-    height: 155px;
-    width: 160px;
-    background-color: var(--soft-blue);
-    border-radius: 80px;
-    margin-bottom: 30px;
-    float: right;
-    left: 27%;
-    margin-right: 20px;
-    position: absolute;
-}
-.shape-fe2{
-    float: right;
-    border-radius: 0;
-    left: 4%;
-    position: absolute;
-}
-.invalid-tooltip{
-    width: 100%;
-}
+    }
+    .shape-position{
+          top: 167px;
+    }
+    .shape-position-sb{
+        top: 1038px;
+    }
+    .shape-fe{
+        height: 155px;
+        width: 160px;
+        background-color: var(--soft-blue);
+        border-radius: 80px;
+        margin-bottom: 30px;
+        float: right;
+        left: 27%;
+        margin-right: 20px;
+        position: absolute;
+    }
+    .shape-fe2{
+        float: right;
+        border-radius: 0;
+        left: 4%;
+        position: absolute;
+    }
+    .invalid-tooltip{
+        width: 100%;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+  
+    .overlay {
+      height: 100%;
+      width: 100%;
+      display: none;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+  }
+  
+/*     
+    @media screen and (max-height: 450px) {
+     
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    } */
