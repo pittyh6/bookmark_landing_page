@@ -321,9 +321,8 @@ body{
     .container-fluid{
         width: 90% !important;
     }
-    .card-three{
-        margin-top: 55px;
-    }
+    
+    
     
     .shape {
         height: 150px;
@@ -355,7 +354,12 @@ body{
         margin: auto !important;        
         width: 90%;
     }
-    
+    .text-small-content{
+        padding: 0 !important;
+    }
+    #bookmark button{
+        padding: 3% !important;
+    }
     #features .text-small-content,
     #questions .text-small-content{
         padding: 0 !important;
@@ -366,6 +370,9 @@ body{
     }
     .mg-id-div{
         margin: 15% auto !important;
+    }
+    .card-three{
+        margin-top: 55px;
     }
 
 
@@ -391,16 +398,32 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 375px){
+    #questions .row{
+        padding: 0;
+    }
+    #contact .col-md-9 .nav{
+        width: min-content !important;
+        margin: auto !important;
+        text-align: center !important;
+        padding-left: reverse;
+    }
+    #join input{
+        width: auto !important;
+    }
+    #join button{
+        width: 292% !important;
+    }
+    .fa-ul{
+        margin-left: 0 !important;
+    }
+    .navbar-collapse
+    {
+        background-color:rgba(0, 0, 0, 0.664);
+        
+    }
+    #header a{
+        color: var(--white) !important;
+    }
+}
 
