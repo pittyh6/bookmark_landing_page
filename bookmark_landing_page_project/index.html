@@ -269,21 +269,22 @@
         <button class="btn btn-blue text-weight-medium mg-3-perc">More Info</button>
       </div>
     </Section>
+
     <!-- SECTION 5 -->
-    <Section id="join" class="big-content bg-light-blue txt-white text-align-cente ">
+    <Section id="join" class="big-content bg-light-blue txt-white text-align-cente " >
       <div class="tiny-content">
         <h5 class="tiny-title">35,000+ ALREADY JOINED</h5>
         <h3 class="small-title mg-3-perc">Stay up-to-date with what we’re doing</h3>
 
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" novalidate name="form1" action="#" onclick="return false;">
           <div class="col-md-8  input-group has-validation position-relative">
-            <input type="text" class="form-control is-invalid" id="validationTooltipUsername"
-              placeholder="Enter your email address" aria-describedby="validationTooltipUsernamePrepend" required>
+            <input type="text" class="form-control " id="validationTooltipUsername"
+              placeholder="Enter your email address" aria-describedby="validationTooltipUsernamePrepend" required name="text1">
             <div class="invalid-tooltip">
               <i>Whoops, make sure it's an email.</i>
             </div>
             <div class="col-md-4 col-sm-12 position-relative">
-              <button class="btn btn-light-red" type="submit">Contact Us</button>
+              <button class="btn btn-light-red" type="submit" onclick="EmailValidation(document.form1.text1)" >Contact Us</button>
             </div>
           </div>
         </form>
