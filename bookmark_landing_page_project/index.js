@@ -6,6 +6,7 @@ $("#speedySearchingLink").on("click", function(){
 $("#easySharingLink").on("click", function(){
     $("#easySharing").show();
     $("#speedySearching").hide();
+    $("#simpleBookmarking").hide();
 });
 $("#simpleBookmarkinLink").on("click", function(){
     $("#simpleBookmarking").show();
