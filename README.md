@@ -8,9 +8,9 @@
 * Bookmark [link](https://github.com/pittyh6/bookmark_landing_page/tree/master/bookmark_landing_page_project)
 
 ### Result
-* Desktop ![Middle Banner](Documentation/bookmark_landing_gif-1.gif)
-* Ipad/Ipad Pro ![Middle Banner](Documentation/bookmark_landing_gif-2.gif)
-* Mobile ![Middle Banner](Documentation/bookmark_landing_gif-3.gif)
+![Middle Banner](Documentation/bookmark_landing_gif-1.gif)
+![Middle Banner](Documentation/bookmark_landing_gif-2.gif)
+![Middle Banner](Documentation/bookmark_landing_gif-3.gif)
 
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/bookmark_landing_page/tree/master/Sprint%203)
