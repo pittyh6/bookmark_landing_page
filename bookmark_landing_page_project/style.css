@@ -213,6 +213,10 @@ body{
     position: absolute;
 }
 
+/* ERROR msg  input*/
+.invalid-tooltip{
+    width: 67%;
+}
 /* --------------------------SPECIFIC CLASS ELEMENTS--------------------------- */
 
 /* navbar */
@@ -468,6 +472,9 @@ body{
     border-radius: 0;
     left: 4%;
     position: absolute;
+}
+.invalid-tooltip{
+    width: 100%;
 }
 }
 
