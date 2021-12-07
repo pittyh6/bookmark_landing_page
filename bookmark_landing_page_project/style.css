@@ -150,6 +150,9 @@ body{
     width: 100%;
     margin: 10% 0;
 }
+#questions img{
+    float: right !important;
+}
 .svg{
     transform: rotate(180deg);
     /* filter: invert(37%) sepia(93%) saturate(7471%) hue-rotate(356deg) brightness(91%) contrast(135%); */
