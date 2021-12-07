@@ -348,7 +348,7 @@ body{
     }
 
 }
-@media (max-width: 770px) and (min-width: 376px){
+@media (max-width: 770px){
     .small-content, .tiny-content{
         text-align: center;
         margin: auto !important;        
@@ -396,6 +396,7 @@ body{
 
 
 @media (max-width: 375px){
+  
     #questions .row{
         padding: 0;
     }
@@ -425,28 +426,28 @@ body{
 
     /* BACKGROUND SHAPES */
 .shape {
-    height: 100px;
-    width: 106px;
+    height: 139px;
+    width: 140px;
     background-color: var(--soft-blue);
     border-radius: 80px;
     margin-bottom: 30px;
     float: right;
-    right: 29%;
+    right: 25%;
     margin-right: 20px;
     position: absolute;
 }
 .shape2 {
     float: right;
     border-radius: 0;
-    right: 15%;
+    right: 5%;
     position: absolute;
 
 }
 .shape-position{
-      top: 130px;
+      top: 167px;
 }
 .shape-position-sb{
-    top: 1155px;
+    top: 1038px;
 }
 .shape-fe{
     height: 155px;
@@ -455,14 +456,14 @@ body{
     border-radius: 80px;
     margin-bottom: 30px;
     float: right;
-    left: 30%;
+    left: 27%;
     margin-right: 20px;
     position: absolute;
 }
 .shape-fe2{
     float: right;
     border-radius: 0;
-    left: 6%;
+    left: 4%;
     position: absolute;
 }
 }
