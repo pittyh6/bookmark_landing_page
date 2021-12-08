@@ -1,7 +1,7 @@
 
 
 # Jira Sprints
-![Begin Banner](Sprint-full.png)
+![Begin Banner](sprint-full.png)
 ![Begin Banner](Sprint-3.png)
 
 ## Third Sprint
