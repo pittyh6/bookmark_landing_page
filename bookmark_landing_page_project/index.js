@@ -54,6 +54,10 @@ function openNav() {
     $("#navbarNav").css("display", "block");
     $("#navbarNav img").removeClass("hide-elements")
     $("#navbarNav button").addClass("btn-toggle-transp")
+
+    $("#navbarNav a").on("click", function(event){
+        closeNav();
+    });
   }
   
   /* Close */
